@@ -4,9 +4,8 @@ nav {
   background-color: aqua;
   position: sticky;
   top: 0;
-  font-family: "Josefin Sans", "sans-serif";
-  /* outline: auto; */
-  align-tracks: center;
+  font-family: system-ui, sans-serif;
+  z-index: 999;
 }
 
 .top {
@@ -39,6 +38,8 @@ nav {
 }
 .topList li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .topImg {

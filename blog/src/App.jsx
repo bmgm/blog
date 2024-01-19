@@ -1,12 +1,11 @@
 import "./App.css";
-import Header from "./components/header/Header";
+import Home from "./components/pages/home/Home";
 import TopBar from "./components/topbar/TopBar";
 
 function App() {
   return (
     <>
-      <TopBar />
-      <Header />
+      <Home />
     </>
   );
 }

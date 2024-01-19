@@ -1,3 +1,41 @@
-.header{
-  color: red;
+.head {
+  background-image: url("https://images.pexels.com/photos/117843/pexels-photo-117843.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  color: white;
+  /* margin-top: 60px; */
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", "serif";
+  /* position: relative; */
+  text-shadow: 3px 2px 9px rgb(0, 0, 0);
+}
+
+.headerTitleSm {
+  position: absolute;
+  font-size: 50px;
+  top: 18%;
+}
+
+.headerTitleLg {
+  position: absolute;
+  font-size: 120px;
+  top: 25%;
+}
+
+.headerImg {
+  width: 100%;
+  height: 94vh;
+  object-fit: cover;
+  border: 1px solid red;
+  margin-bottom: 0px;
 }

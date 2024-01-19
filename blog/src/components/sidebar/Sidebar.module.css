@@ -1,0 +1,39 @@
+.sidebar {
+  flex: 3;
+  background-color: pink;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.sidebarItem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar h3 {
+  margin-top: 12px;
+}
+
+.sidebar p {
+  margin-top: 8px;
+}
+
+.sidebarList {
+  margin-top: 8px;
+}
+
+.sidebarList li {
+  list-style: none;
+}
+
+.sidebarSocial {
+  margin-top: 8px;
+}
+
+.sidebarIcon {
+  font-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
