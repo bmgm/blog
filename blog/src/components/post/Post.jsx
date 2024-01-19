@@ -12,6 +12,11 @@ const Post = () => {
         </div>
         <h2 className={s.postTitle}>Lorem ipsum dolor sit amet consectetur.</h2>
         <p className={s.postDate}>1 hr ago</p>
+        <p className={s.postDescription}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          commodi totam qui, pariatur doloribus eligendi illum est deleniti
+          harum quis hic aliquam, eaque sed soluta?
+        </p>
         <hr />
       </div>
     </div>

@@ -1,0 +1,40 @@
+.register {
+  border: 1px solid black;
+  width: 400px;
+  padding: 24px;
+  margin: 0 auto;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  border: 0 0 1px 0 solid black;
+  width: 100%;
+  height: 40px;
+}
+
+.registerSubmit {
+  width: 100%;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin-top: 12px;
+}
+
+.registerLoginButton {
+  width: 100%;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  background-color: white;
+  margin-top: 12px;
+}
